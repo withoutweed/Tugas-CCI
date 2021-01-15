@@ -1,0 +1,50 @@
+body{
+    font-family: sans-serif;
+    background-image: url("bg (2).jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.kotak_login{
+    background:white;
+    width: 400px;
+    margin: 120px auto;
+    padding: 30px 30px  ;
+    border-radius: 20px;
+}
+.judul_login{
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.form_login{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    font-size: 11pt;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #d4d4d4;
+}
+.tombol_login{
+    color: white;
+    height: 40px;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    font-size: 18px;
+    background-color: #00bd23;
+}
+.kembali_sebelum{
+    color: #696969;
+    text-decoration: none;
+
+}
+.avatar{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 70px;
+    left: calc(50% - 50px);
+}

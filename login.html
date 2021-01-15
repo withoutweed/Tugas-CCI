@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style3.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+
+
+    <div class="container">
+        <div class="kotak_login">
+            <img class="avatar" src="user.png">
+            <br>
+            <p class="judul_login">Silahkan Login</p>
+            <form>
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com" style="border-radius: 10px;background-color: rgb(236, 236, 236);border: none;">
+                    <label for="floatingInput" style="color: rgb(82, 82, 82);">Username</label>
+                </div>
+                <br>
+                <div class="form-floating">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password" style="border-radius: 10px;background-color: rgb(236, 236, 236);border: none;">
+                    <label for="floatingPassword" style="color: rgb(82, 82, 82);">Password</label>
+                  </div>
+                <br>
+
+
+           
+                <!-- Button trigger modal -->
+                <button type="button" class="tombol_login" data-bs-toggle="modal" data-bs-target="#exampleModal" style="font-weight: 500;">
+                    Login
+                </button>
+                
+                <!-- Modal -->
+                
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" style="width: 450px;">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Verifikasi</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+
+                            <div class="row">
+                                <div class="col" style="margin: auto">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="defaultCheck1">
+                                        <label class="form-check-label" for="defaultCheck1">
+                                            I'm not a human
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col" style="text-align: end;">
+                                    <img src="radio.png" style="width: 100px;">
+                                </div>
+                            </div>
+
+
+                            
+                            
+                            
+                       
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary">
+                                <a href="index.html" style="color: white;text-decoration: none;">Done</a>
+                            </button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                
+                
+
+
+                
+                <br><br>
+                <div style="text-align: center;">
+                    <a href="index.html" class="kembali_sebelum">kembali</a>
+                </div>
+                
+            </form>
+        </div>
+    </div>
+</body>
+</html>
